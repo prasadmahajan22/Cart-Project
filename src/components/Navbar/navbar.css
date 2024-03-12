@@ -1,0 +1,38 @@
+.navbar{
+    width: 100%;
+    background-color: rgb(100, 92, 255);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.2rem 0;
+}
+
+.navbar h1{
+    font-size: 31.56px;
+    line-height: 30.56px;
+    font-weight: 400;
+}
+
+.navbar .cart{
+    display: flex;
+    position: relative;
+    
+}
+
+.navbar .cart .cart_icon{
+    font-size: 2rem;
+    
+    /* rgb(162, 157, 255) */
+}
+
+.navbar .cart .quantity{
+    position: absolute;
+    bottom: 65%;
+    left: 70%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: rgb(162, 157, 255);
+    padding: 0.2rem 0.5rem;
+    border-radius: 50%;
+}
